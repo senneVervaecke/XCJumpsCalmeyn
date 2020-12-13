@@ -1,0 +1,19 @@
+{
+    "home": {
+        "title": "Maison",
+        "quote": "Sécurité, qualité et design tout en un !!",
+        "line1": "",
+        "line2": ""
+    },
+    "obs":{
+        "title": "Obstacles"
+    },
+    "acc":{
+        "title": "Accessoires"
+    },
+    "contact":{
+        "title": "Contact"
+    },
+    "contactUs": "Contactez nous",
+    "followUs": "Suivez nous"
+}

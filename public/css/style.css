@@ -1,0 +1,128 @@
+/* General */
+@media only screen and (min-width: 768px){
+  .custom-container{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+@import url(//db.onlinewebfonts.com/c/ced1468ed3321594800dafb719f426e4?family=Roma);
+
+@font-face {font-family: "Roma"; src: url("//db.onlinewebfonts.com/t/ced1468ed3321594800dafb719f426e4.eot"); src: url("//db.onlinewebfonts.com/t/ced1468ed3321594800dafb719f426e4.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ced1468ed3321594800dafb719f426e4.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ced1468ed3321594800dafb719f426e4.woff") format("woff"), url("//db.onlinewebfonts.com/t/ced1468ed3321594800dafb719f426e4.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ced1468ed3321594800dafb719f426e4.svg#Roma") format("svg"); }
+
+.title{
+  font-family: 'Roma';
+}
+
+p {
+  font-family: Helvetica;
+}
+h5{
+  font-family: Helvetica;
+}
+
+/* Navigation */
+.navbar{
+    padding-right: 10%;
+    background-color: #202020;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-item :hover{
+    color:#A5A5A5;
+    text-decoration: underline;
+}
+
+.active{
+    color: #A5A5A5;
+    text-decoration: underline;
+}
+.vertical-divider-navbar{
+    margin-top: 8px;
+    width: 1.5px;
+    background-color: white;
+    height: 26px;
+}
+.logo{
+    height: 100px;
+    width: auto;
+    margin-left: 20px;
+}
+.lan-selector {
+  position: absolute;
+  top: 10px;
+  right: 40px;
+  font-size: 14px;
+}
+
+.lan-selector a{
+  color: white;
+}
+.lan-selector .active{
+  color: #A5A5A5;
+}
+/* Swiper */
+.swiper {
+  width: 100%;
+  max-width: 1200px;
+}
+.swiper-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .swiper-slide {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .gallery-top {
+    height: 80%;
+  }
+
+  .gallery-thumbs {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+  }
+
+  .gallery-thumbs .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+  }
+
+  .gallery-thumbs .swiper-slide-thumb-active {
+    opacity: 1;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  /* Footer */
+  footer {
+    background-color: #202020;
+    color: white;
+  }
+  footer p {
+    margin: 0, 0, 0, 0;
+  }
+  .logo-footer{
+    height: 130px;
+    width: auto;
+  }
+  .logo-social{
+    width: 50px;
+    height: 50px;
+  }
+/* MAP */
+.map{
+  width: 100%;
+  height: 284px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>XC Jumps Calmeyn - <%= trans.home.title %></title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/swiper-bundle.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="//db.onlinewebfonts.com/c/ced1468ed3321594800dafb719f426e4?family=Roma" rel="stylesheet" type="text/css" />
+</head>
+
+<body style='background-image: url("../img/bg-repeat.jpg");'>
+  <div class="bg-white custom-container">
+      <%- include('../template/navigation.ejs', {active: active}) -%>
+      
+        <h3 class="text-center mt-2 title">XC Jumps Calmeyn</h3>
+        <h5 class="text-center title"><%= trans.home.quote %> </h5>
+      
+      <div class="swiper ml-auto mr-auto">
+        <div class="swiper-container gallery-top">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image:url(./img/fence1.jpeg)"></div>
+            <div class="swiper-slide" style="background-image:url(./img/fence2.jpeg)"></div>
+            <div class="swiper-slide" style="background-image:url(./img/fence3.jpg)"></div>
+            <div class="swiper-slide" style="background-image:url(./img/fence4.jpg)"></div>
+          </div>
+          <!-- Add Arrows -->
+          <div class="swiper-button-next swiper-button-white"></div>
+          <div class="swiper-button-prev swiper-button-white"></div>
+        </div>
+        <div class="swiper-container gallery-thumbs">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image:url(./img/fence1.jpeg)"></div>
+            <div class="swiper-slide" style="background-image:url(./img/fence2.jpeg)"></div>
+            <div class="swiper-slide" style="background-image:url(./img/fence3.jpg)"></div>
+            <div class="swiper-slide" style="background-image:url(./img/fence4.jpg)"></div>
+          </div>
+        </div>
+      </div>
+
+      <p class="ml-3 mr-3"><%= trans.home.line1 %> </p>
+      <p class="ml-3"><%= trans.home.line2 %> </p>
+      <%- include('../template/footer.ejs') -%>
+</body>
+
+<script src="js/swiper-bundle.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/home.js"></script>
+<script src="https://kit.fontawesome.com/54bf40465d.js" crossorigin="anonymous"></script>
+
+</html>

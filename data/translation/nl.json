@@ -1,0 +1,28 @@
+{
+    "home": {
+        "title": "Home",
+        "quote": "Veiligheid, Qualiteit & Ontwerp In Een!!",
+        "line1": "Wij ontwerpen praktisch verplaatsbare hindernissen. Diverse ontwerpen zijn in verschillende breedtes en hoogtes te verkrijgen. Ook uw eigen ontwerp kunnen wij uitwerken en realiseren.",
+        "line2": "Steeds enkele modellen in voorraad !"
+    },
+    "obs":{
+        "title": "Hindernissen",
+        "line1": "Hieronder al onze reeds gerealiseerde hindernissen. U kan op de foto klikken voor extra info. Wilt u een ander model dan kan dit steeds op bestelling. Wij zijn steeds bereikbaar indien U meer info wenst."
+    },
+    "acc":{
+        "title": "Accessoires"
+    },
+    "contact":{
+        "title": "Contact",
+        "name": "Naam ...",
+        "mail": "Email Adres ...",
+        "phone": "Telefoon Nummer ...",
+        "subject": "Onderwerp ...",
+        "message": "Uw Bericht Voor Ons ...",
+        "send": "Verzenden",
+        "detail": "Gegevens",
+        "success": "De email is verzonden. U zal binnenkort een antwoord krijgen!"
+    },
+    "contactUs": "Contacteer ons",
+    "followUs": "Volg ons"
+}

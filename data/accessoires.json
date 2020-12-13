@@ -1,0 +1,29 @@
+[
+    {
+        "name": {
+            "nl": "Hindernis Vlaggen",
+            "en": "Obstacle Flags",
+            "fr": "Drapeaux d'Obstacle"
+        },
+        "id": "A1",
+        "url": "flag.jpg"
+    },
+    {
+        "name": {
+            "nl": "Nummerplaatjes",
+            "en": "Number Plates",
+            "fr": "Plaques Numeros"
+        },
+        "id": "A2",
+        "url": "number.jpeg"
+    },
+    {
+        "name": {
+            "nl": "Verankering Set",
+            "en": "Anchoring Set",
+            "fr": "Kit d'Ancrage"
+        },
+        "id": "A3",
+        "url": "anchor.jpg"
+    }
+]

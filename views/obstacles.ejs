@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>XC Jumps Calmeyn - <%= trans.obs.title %> </title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/gallery.css">  
+  <link href="//db.onlinewebfonts.com/c/ced1468ed3321594800dafb719f426e4?family=Roma" rel="stylesheet" type="text/css" />
+</head>
+
+<body style='background-image: url("../img/bg-repeat.jpg");'>
+  <div class="bg-white custom-container">
+      <%- include('../template/navigation.ejs', {active: active}) -%>
+      
+      <div class="container-fluid">
+      <h3 class="text-center mt-2 title"><%= trans.obs.title %> </h3>
+
+      <p class="ml-3 mr-3"> <%= trans.obs.line1 %> </p>
+
+      <div class="row">
+        <% for(var i = 0; i < obstacles.length; i++){ %>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="gallery-item" style="background-image: url('img/obstacles/<%= obstacles[i].url %>');">
+              <span class="bottom-right text-white text-center number"><%= obstacles[i].id %> </span>
+            </div>
+          </div>
+        <% } %>  
+      </div>
+    </div>
+
+
+      <%- include('../template/footer.ejs') -%>
+</body>
+
+<script src="js/swiper-bundle.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/gallery.js"></script>
+<script src="https://kit.fontawesome.com/54bf40465d.js" crossorigin="anonymous"></script>
+
+</html>

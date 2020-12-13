@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>XC Jumps Calmeyn - <%= trans.obs.title %> </title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="//db.onlinewebfonts.com/c/ced1468ed3321594800dafb719f426e4?family=Roma" rel="stylesheet"
+    type="text/css" />
+</head>
+
+<body style='background-image: url("../img/bg-repeat.jpg");'>
+  <div class="bg-white custom-container">
+    <%- include('../template/navigation.ejs', {active: active}) -%>
+    <div class="container-fluid">
+        <% if(mail){ %> 
+          <div class="alert alert-success mt-2 mb-0" role="alert">
+            <%= trans.contact.success %> 
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+      <% } %> 
+      <div class="row">
+        <div class="col-lg-6 col-md-12 mt-4 mb-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="title text-center"><%= trans.contact.title %></h3>
+            </div>
+            <div class="card-body">
+              <form action="/mail" method="POST" id="contactForm">
+                <div class="input-group mb-2">
+                  <input type="text" name="name" id="name" placeholder="<%= trans.contact.name %>" class="form-control" minlength="4" required>
+                </div>
+                <div class="input-group mb-2">
+                  <input type="text" name="email" id="email" placeholder="<%= trans.contact.mail %>" class="form-control" type="email" required>
+                </div>
+                <div class="input-group mb-2">
+                  <input type="text" name="phone" id="phone" placeholder="<%= trans.contact.phone %>" class="form-control" type="tel" required>
+                </div>
+                <div class="input-group mb-2">
+                  <input type="text" name="subject" id="subject" placeholder="<%= trans.contact.subject %>" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="text" id="text" rows="5" placeholder="<%= trans.contact.message %>" minlength="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-dark float-right"><%= trans.contact.send %> </button>
+            </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12 mt-4 mb-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="title text-center"><%= trans.contact.detail %> </h3>
+            </div>
+            <div class="card-body">
+              <h6 class="text-center">pcalmeyn@telenet.be</h6>
+              <h6 class="text-center">Tel. Piet: 0032(0)475-44.68.96</h6>
+              <h6 class="text-center">Tel. Ann: 0032(0)473-53.30.09</h6>
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.5694535416656!2d4.126559215708073!3d50.72792627951465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3b6fcd2c7ab89%3A0xf25fd4d80613cc26!2sHeikruisesteenweg%2012%2C%201670%20Pepingen!5e0!3m2!1snl!2sbe!4v1607871276014!5m2!1snl!2sbe"
+              class="map" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <%- include('../template/footer.ejs') -%>
+</body>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/contact.js"></script>
+<script src="https://kit.fontawesome.com/54bf40465d.js" crossorigin="anonymous"></script>
+
+</html>

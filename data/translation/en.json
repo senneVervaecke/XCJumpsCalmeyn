@@ -1,0 +1,27 @@
+{
+    "home": {
+        "title": "Home",
+        "quote": "Safety, Quality & Design All In One!!",
+        "line1": "We design practical, removable fences. Different design are in different heights and widths available. We can also realise your own design.",
+        "line2": "Always some models in storage!"
+    },
+    "obs":{
+        "title": "Obstacles"
+    },
+    "acc":{
+        "title": "Accessoiries"
+    },
+    "contact":{
+        "title": "Contact",
+        "name": "Name ...",
+        "mail": "Email Address ...",
+        "phone": "Phone Number ...",
+        "subject": "Subject ...",
+        "message": "Your Message To Us ...",
+        "send": "Send",
+        "detail": "Details",
+        "success": "The email is send. You will receive a response soon!"
+    },
+    "contactUs": "Contact us",
+    "followUs": "Follow us"
+}

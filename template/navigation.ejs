@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid d-flex align-items-end">
+        <img src="img/logo.jpg" class="logo navbar-brand">
+
+        <button class="navbar-toggler navbar-dark mb-3" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                <a class="nav-link <% if(active == "home"){ %> active <% } %>" href="/"><%= trans.home.title.toUpperCase() %> </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link <% if(active == "obstacles"){ %> active <% } %>" href="/obstacles"><%= trans.obs.title.toUpperCase() %> </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link <% if(active == "accessoires"){ %> active <% } %>" href="/accessoires"><%= trans.acc.title.toUpperCase() %> </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link <% if(active == "contact"){ %> active <% } %>" href="/contact"><%= trans.contact.title.toUpperCase() %> </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="text-white lan-selector">
+            <a class="<%=(lang=="nl"?"active":"")%>" href="/?clang=nl">nl</a> /
+            <a class="<%=(lang=="fr"?"active":"")%>" href="/?clang=fr">fr</a> /
+            <a class="<%=(lang=="en"?"active":"")%>" href="/?clang=en">en</a>
+        </div>
+    </div>
+</nav>

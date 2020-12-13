@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>XC Jumps Calmeyn - <%= trans.acc.title %> </title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/gallery.css">
+  <link href="//db.onlinewebfonts.com/c/ced1468ed3321594800dafb719f426e4?family=Roma" rel="stylesheet"
+    type="text/css" />
+</head>
+
+<body style='background-image: url("../img/bg-repeat.jpg");'>
+  <div class="bg-white custom-container">
+    <%- include('../template/navigation.ejs', {active: active}) -%>
+
+    <div class="container-fluid">
+      <h2 class="text-center mt-2 title"><%= trans.acc.title %> </h2>
+
+      <p class="ml-3 mr-3"> <%= trans.acc.line1 %> </p>
+
+      <div class="row">
+        <% for(var i = 0; i < accessoires.length; i++){ %>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <h5 class="ml-2"><%=
+                lang == 'fr' ? accessoires[i].name.fr : lang == 'en' ? accessoires[i].name.en : accessoires[i].name.nl
+                %> </h5>
+          <div class="gallery-item" style="background-image: url('img/accessoires/<%= accessoires[i].url %>');">
+            <span class="bottom-right text-white text-center number"><%= accessoires[i].id %> </span>
+          </div>
+        </div>
+        <% } %>
+      </div>
+    </div>
+
+
+    <%- include('../template/footer.ejs') -%>
+</body>
+
+<script src="js/swiper-bundle.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/gallery.js"></script>
+<script src="https://kit.fontawesome.com/54bf40465d.js" crossorigin="anonymous"></script>
+
+</html>
