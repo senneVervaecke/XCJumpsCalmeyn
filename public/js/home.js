@@ -27,10 +27,17 @@ var resizeSwiper = function(){
   $('.gallery-thumbs').height(height / 5);
 }
 
+var resizeText = function(){
+  var width = $('.swiper-container').width();
+  $('.text-container').width(width);
+}
+
 $(function(){
   resizeSwiper();
+  resizeText();
   $(window).on('resize', function(){
       resizeSwiper();
+      resizeText();
   });
 });
 

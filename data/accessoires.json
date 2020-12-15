@@ -6,16 +6,7 @@
             "fr": "Drapeaux d'Obstacle"
         },
         "id": "A1",
-        "url": "flag.jpg"
-    },
-    {
-        "name": {
-            "nl": "Nummerplaatjes",
-            "en": "Number Plates",
-            "fr": "Plaques Numeros"
-        },
-        "id": "A2",
-        "url": "number.jpeg"
+        "url": "flag.jpeg"
     },
     {
         "name": {
@@ -23,7 +14,7 @@
             "en": "Anchoring Set",
             "fr": "Kit d'Ancrage"
         },
-        "id": "A3",
-        "url": "anchor.jpg"
+        "id": "A2",
+        "url": "anchor.jpeg"
     }
 ]

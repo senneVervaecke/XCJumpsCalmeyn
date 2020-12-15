@@ -1,18 +1,87 @@
 [
     {
         "id": "H1",
-        "url": "fence1.jpeg" 
+        "url": [
+            "groen1-min.JPG",
+            "groen2-min.JPG",
+            "groen3-min.JPG"
+        ]
     },
     {
         "id": "H2",
-        "url": "fence2.jpeg" 
+        "url": [
+            "haag1-min.JPG",
+            "haag2-min.JPG",
+            "haag3-min.JPG"
+        ]
     },
     {
         "id": "H3",
-        "url": "fence3.jpg" 
+        "url": [
+            "half1-min.JPG",
+            "half2-min.JPG",
+            "half3-min.JPG",
+            "half4-min.JPG"
+        ]
     },
     {
         "id": "H4",
-        "url": "fence4.jpg" 
+        "url": [
+            "rond1-min.JPG",
+            "rond2-min.JPG"
+        ]
+    },
+    {
+        "id": "H5",
+        "url": [
+            "smal1.1-min.JPG",
+            "smal1.2-min.JPG",
+            "smal1.3-min.JPG"
+        ]
+    },
+    {
+        "id": "H6",
+        "url": [
+            "smal2.1-min.JPG",
+            "smal2.2-min.JPG",
+            "smal2.3-min.JPG"
+        ]
+    },
+    {
+        "id": "H7",
+        "url": [
+            "smal3.1-min.JPG",
+            "smal3.2-min.JPG",
+            "smal3.3-min.JPG"
+        ]
+    },
+    {
+        "id": "H8",
+        "url": [
+            "smal4.1-min.JPG",
+            "smal4.2-min.JPG",
+            "smal4.3-min.JPG"
+        ]
+    },
+    {
+        "id": "H9",
+        "url": [
+            "smal5.1-min.JPG",
+            "smal5.2-min.JPG",
+            "smal5.3-min.JPG"
+        ]
+    },
+    {
+        "id": "H10",
+        "url": [
+            "smal6.1-min.JPG"
+        ]
+    },
+    {
+        "id": "H11",
+        "url": [
+            "ton1-min.JPG",
+            "ton2-min.JPG"
+        ]
     }
 ]

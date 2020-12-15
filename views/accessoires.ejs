@@ -25,14 +25,13 @@
           <h5 class="ml-2"><%=
                 lang == 'fr' ? accessoires[i].name.fr : lang == 'en' ? accessoires[i].name.en : accessoires[i].name.nl
                 %> </h5>
-          <div class="gallery-item" style="background-image: url('img/accessoires/<%= accessoires[i].url %>');">
-            <span class="bottom-right text-white text-center number"><%= accessoires[i].id %> </span>
+          <div class="acc-gallery-item" style="background-image: url('img/accessoires/<%= accessoires[i].url %>');">
+            <span class="acc-bottom-right text-white text-center number"><%= accessoires[i].id %> </span>
           </div>
         </div>
         <% } %>
       </div>
     </div>
-
 
     <%- include('../template/footer.ejs') -%>
 </body>

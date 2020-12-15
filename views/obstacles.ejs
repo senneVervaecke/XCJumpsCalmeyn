@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/gallery.css">  
+  <link rel="stylesheet" href="css/swiper-bundle.css">
   <link href="//db.onlinewebfonts.com/c/ced1468ed3321594800dafb719f426e4?family=Roma" rel="stylesheet" type="text/css" />
 </head>
 
@@ -21,10 +22,35 @@
       <div class="row">
         <% for(var i = 0; i < obstacles.length; i++){ %>
           <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="swiper">
+              <div class="swiper-container gallery-item">
+                <div class="swiper-wrapper">
+                  <% for(var j = 0; j < obstacles[i].url.length; j++){ %>
+                    <div class="swiper-slide">
+                      <!-- Required swiper-lazy class and image source specified in data-src attribute -->
+                      <img data-src='img/obstacles/<%= obstacles[i].url[j] %>' class="swiper-lazy">
+                      <!-- Preloader image -->
+                      <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                    </div>
+
+                    <!-- Add Obstacle Number -->
+                    <span class="bottom-right text-white text-center number"><%= obstacles[i].id %> </span>
+                  <% } %>
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next swiper-button-white"></div>
+                <div class="swiper-button-prev swiper-button-white"></div>
+              </div>
+            </div>
+          </div>
+
+          <!--
+          <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="gallery-item" style="background-image: url('img/obstacles/<%= obstacles[i].url %>');">
               <span class="bottom-right text-white text-center number"><%= obstacles[i].id %> </span>
             </div>
           </div>
+        -->
         <% } %>  
       </div>
     </div>
@@ -37,6 +63,7 @@
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.bundle.js"></script>
 <script src="js/gallery.js"></script>
+<script src="js/obstacle.js"></script>
 <script src="https://kit.fontawesome.com/54bf40465d.js" crossorigin="anonymous"></script>
 
 </html>

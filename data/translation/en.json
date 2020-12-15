@@ -6,10 +6,12 @@
         "line2": "Always some models in storage!"
     },
     "obs":{
-        "title": "Obstacles"
+        "title": "Obstacles",
+        "line1": "Here you can see all the cross-country obstacles that have been constructed. There are always fences in stock! You can always order an obstacle by your own wants and needs. We are always available if you would want more information."
     },
     "acc":{
-        "title": "Accessoiries"
+        "title": "Accessoiries",
+        "line1": "With an order, you can always acquire following accessories: "
     },
     "contact":{
         "title": "Contact",
