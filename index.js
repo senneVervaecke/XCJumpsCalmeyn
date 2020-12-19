@@ -57,8 +57,11 @@ app.get('/', function(req, res){
  });
 
  app.post('/mail', function(req, res) {
-   mail.sendMail(req.body.email, req.body.subject, req.body.name, req.body.phone, req.body.text);
-   res.redirect('/contact?mail=true');
+   var result = mail.sendMail(req.body.email, req.body.subject, req.body.name, req.body.phone, req.body.text);
+   if(typeof result == "undefined"){
+      result = "ok";
+   }
+   res.redirect('/contact?mail=' + result);
  })
 
  

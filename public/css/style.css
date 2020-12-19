@@ -47,7 +47,9 @@ h5{
     height: 26px;
 }
 .logo{
-    height: 100px;
+    height: 120px;
+    margin-top: -8px;
+    margin-bottom: -12px;
     width: auto;
     margin-left: 20px;
 }
@@ -127,7 +129,7 @@ h5{
     margin: 0, 0, 0, 0;
   }
   .logo-footer{
-    height: 130px;
+    height: 150px;
     width: auto;
   }
   .logo-social{

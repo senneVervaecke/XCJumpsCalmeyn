@@ -7,7 +7,7 @@
     },
     "obs":{
         "title": "Obstacles",
-        "line1": "Here you can see all the cross-country obstacles that have been constructed. There are always fences in stock! You can always order an obstacle by your own wants and needs. We are always available if you would want more information."
+        "line1": "Here you can see all the cross-country obstacles that have been constructed. We are constantly constructing new models and there are always fences in stock! You can always order an obstacle by your own wants and needs. We are always available if you would want more information."
     },
     "acc":{
         "title": "Accessoiries",
@@ -22,7 +22,16 @@
         "message": "Your Message To Us ...",
         "send": "Send",
         "detail": "Details",
-        "success": "The email is send. You will receive a response soon!"
+        "success": "The email is send. You will receive a response soon!",
+        "info": "information",
+        "order": "make an order",
+        "price": "ask for price",
+        "invalidName": "The given name is to short.",
+        "invalidMail": "The given email address is invalid.",
+        "invalidNumber": "The given phone number is invalid.",
+        "invalidSubject": "The given subject is invalid.",
+        "invalidMessage": "The given message is to short.",
+        "error": "Something went wrong. Please contact us with the info at the bottom of the page."
     },
     "contactUs": "Contact us",
     "followUs": "Follow us"

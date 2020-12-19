@@ -59,29 +59,13 @@
         "id": "H8",
         "url": [
             "smal4.1-min.JPG",
-            "smal4.2-min.JPG",
-            "smal4.3-min.JPG"
+            "smal4.2-min.JPG"
         ]
     },
     {
         "id": "H9",
         "url": [
-            "smal5.1-min.JPG",
-            "smal5.2-min.JPG",
-            "smal5.3-min.JPG"
-        ]
-    },
-    {
-        "id": "H10",
-        "url": [
             "smal6.1-min.JPG"
-        ]
-    },
-    {
-        "id": "H11",
-        "url": [
-            "ton1-min.JPG",
-            "ton2-min.JPG"
         ]
     }
 ]

@@ -14,12 +14,28 @@
     <%- include('../template/navigation.ejs', {active: active}) -%>
     <div class="container-fluid">
         <% if(mail){ %> 
-          <div class="alert alert-success mt-2 mb-0" role="alert">
-            <%= trans.contact.success %> 
+          <% if(mail == "ok"){ %>
+            <div class="alert alert-success mt-2 mb-0" role="alert">
+              <%= trans.contact.success %> 
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+        <% } else { %>
+          <div class="alert alert-danger mt-2 mb-0" role="alert">
+            <%=
+              mail == "name" ? trans.contact.invalidName :
+              mail == "mail" ? trans.contact.invalidMail :
+              mail == "number" ? trans.contact.invalidNumber : 
+              mail == "subject" ? trans.contact.invalidSubject : 
+              mail == "message" ? trans.contact.invalidMessage : 
+              trans.contact.error 
+            %> 
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
+        <% } %>
       <% } %> 
       <div class="row">
         <div class="col-lg-6 col-md-12 mt-4 mb-lg-4">
@@ -39,7 +55,12 @@
                   <input type="text" name="phone" id="phone" placeholder="<%= trans.contact.phone %>" class="form-control" type="tel" required>
                 </div>
                 <div class="input-group mb-2">
-                  <input type="text" name="subject" id="subject" placeholder="<%= trans.contact.subject %>" class="form-control" required>
+                  <select class="form-control" name="subject" id="subject" required>
+                    <option selected disabled><%= trans.contact.subject %></option>
+                    <option value="inlichtingen"><%= trans.contact.info %></option>
+                    <option value="prijsvraag"><%= trans.contact.price %></option>
+                    <option value="bestelling"><%= trans.contact.order %></option>
+                  </select>
                 </div>
                 <div class="form-group">
                   <textarea class="form-control" name="text" id="text" rows="5" placeholder="<%= trans.contact.message %>" minlength="4" required></textarea>
@@ -67,8 +88,6 @@
         </div>
       </div>
     </div>
-
-
     <%- include('../template/footer.ejs') -%>
 </body>
 

@@ -24,7 +24,7 @@ var resizeAccGalleryItem = function(){
           $(value).width(height);
       }
     })
-  }
+  };
   
   $(function(){
     resizeGalleryItem();
