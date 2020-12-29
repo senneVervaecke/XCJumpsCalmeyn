@@ -2,7 +2,7 @@
     {
         "id": "H1",
         "url": [
-            "groen1-min.JPG",
+            "groen1.jpeg",
             "groen2-min.JPG",
             "groen3-min.JPG"
         ]
@@ -10,16 +10,16 @@
     {
         "id": "H2",
         "url": [
-            "haag1-min.JPG",
-            "haag2-min.JPG",
-            "haag3-min.JPG"
+            "haag1.jpeg",
+            "haag2.jpeg",
+            "haag3.jpeg"
         ]
     },
     {
         "id": "H3",
         "url": [
             "half1-min.JPG",
-            "half2-min.JPG",
+            "half2.jpeg",
             "half3-min.JPG",
             "half4-min.JPG"
         ]
@@ -27,16 +27,18 @@
     {
         "id": "H4",
         "url": [
-            "rond1-min.JPG",
-            "rond2-min.JPG"
+            "rond1.jpeg",
+            "rond2.jpeg",
+            "rond3.jpeg"
         ]
     },
     {
         "id": "H5",
         "url": [
-            "smal1.1-min.JPG",
-            "smal1.2-min.JPG",
-            "smal1.3-min.JPG"
+            "smal1.1.jpeg",
+            "smal1.2.jpeg",
+            "smal1.3.jpeg",
+            "smal1.4.jpeg"
         ]
     },
     {
@@ -50,22 +52,38 @@
     {
         "id": "H7",
         "url": [
-            "smal3.1-min.JPG",
-            "smal3.2-min.JPG",
-            "smal3.3-min.JPG"
+            "smal3.1.jpeg",
+            "smal3.2.jpeg",
+            "smal3.3.jpeg"
         ]
     },
     {
         "id": "H8",
         "url": [
-            "smal4.1-min.JPG",
-            "smal4.2-min.JPG"
+            "smal4.1.jpeg",
+            "smal4.2.jpeg",
+            "smal4.3-min.JPG"
         ]
     },
     {
         "id": "H9",
         "url": [
             "smal6.1-min.JPG"
+        ]
+    },
+    {
+        "id": "H10",
+        "url": [
+            "horse1.jpeg",
+            "horse2.jpeg"
+        ]
+    },
+    {
+        "id": "H11",
+        "url": [
+            "smal7.1.jpeg",
+            "smal7.2.jpeg",
+            "smal7.3.jpeg"
         ]
     }
 ]

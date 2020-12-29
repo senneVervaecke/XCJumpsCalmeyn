@@ -1,13 +1,13 @@
 {
     "home": {
         "title": "Home",
-        "quote": "Safety, Quality & Design All In One!!",
+        "quote": "Safety, Quality & Design - All In One !!",
         "line1": "Wij ontwerpen praktisch verplaatsbare hindernissen. Diverse ontwerpen zijn in verschillende breedtes en hoogtes te verkrijgen. Ook uw eigen ontwerp kunnen wij uitwerken en realiseren.",
         "line2": "Steeds enkele modellen in voorraad !"
     },
     "obs":{
         "title": "Hindernissen",
-        "line1": "Hieronder zijn al onze reeds gerealiseerde hindernissen. Er worden constant nieuwe modellen aangemaakt en er zijn altijd enkele modellen in vooraad. Wilt u een ander model dan kan dit steeds op bestelling. Wij zijn steeds bereikbaar indien U meer info wenst."
+        "line1": "Hieronder zijn al onze reeds gerealiseerde hindernissen. Regelmatig wordt dit ook aangevuld met nieuwe modellen. Wilt U een ander model dan kan dit steeds op bestelling. Wij zijn steeds bereikbaar indien U meer info wenst !"
     },
     "acc":{
         "title": "Accessoires",
@@ -16,16 +16,22 @@
     "contact":{
         "title": "Contact",
         "name": "Naam ...",
-        "mail": "Email Adres ...",
-        "phone": "Telefoon Nummer ...",
+        "mail": "Email adres ...",
+        "phone": "Telefoon nummer ...",
         "subject": "Onderwerp ...",
-        "message": "Uw Bericht Voor Ons ...",
+        "message": "Uw bericht voor ons ...",
         "send": "Verzenden",
         "detail": "Gegevens",
         "success": "De email is verzonden. U zal binnenkort een antwoord krijgen!",
         "info": "inlichtingen",
-        "order": "bestelling maken",
-        "price": "prijsvraag"
+        "order": "bestelling plaatsen",
+        "price": "prijsvraag",
+        "invalidName": "De naam is te kort.",
+        "invalidMail": "Het email adres is niet geldig.",
+        "invalidNumber": "Het telefoon nummer is niet geldig.",
+        "invalidSubject": "Het onderwerp is niet geldig.",
+        "invalidMessage": "Het bericht is te kort.",
+        "error": "Er is iets mis gegaan. AUB contacteer ons via de contact gegevens onderaan de pagina."
     },
     "contactUs": "Contacteer ons",
     "followUs": "Volg ons"
