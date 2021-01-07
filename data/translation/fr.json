@@ -1,19 +1,38 @@
 {
     "home": {
-        "title": "Maison",
+        "title": "Home",
         "quote": "Safety, Quality & Design - All In One !!",
-        "line1": "",
-        "line2": ""
+        "line1": "Nous concevons des obstacles mobiles et pratiques. Les modèles sont disponibles en différentes hauteurs et largeurs. Nous pouvons aussi développer et réaliser votre propre conception.",
+        "line2": "Il y a toujours quelques modèles en stock !"
     },
     "obs":{
-        "title": "Obstacles"
+        "title": "Obstacles",
+        "line1": "Ci-dessous vous trouverez nos obstacles déja disponibles. Souvent de nouveaux modèles se rajouteront à notre collection. Nous fabriquons aussi votre propre modèle sur demande. Nous sommes toujours à votre disposition pour de plus amples renseignements."
     },
     "acc":{
-        "title": "Accessoires"
+        "title": "Accessories",
+        "line1": "Les accessoires suivants sont aussi disponibles :"
     },
     "contact":{
-        "title": "Contact"
+        "title": "Contact",
+        "name": "Nom ...",
+        "mail": "Adresse e-mail ...",
+        "phone": "Numéro de téléphone ...",
+        "subject": "Sujet ...",
+        "message": "Votre message pour nous ...",
+        "send": "Envoyer",
+        "detail": "Nos coördonnées",
+        "success": "The email is send. You will receive a response soon!",
+        "info": "information",
+        "order": "place your order",
+        "price": "price request",
+        "invalidName": "The name provided is to short.",
+        "invalidMail": "The email address provided is invalid.",
+        "invalidNumber": "The phone number provided is invalid.",
+        "invalidSubject": "The subject provided is invalid.",
+        "invalidMessage": "The message provided is to short.",
+        "error": "Something went wrong. Please contact us using the information at the bottom of the page."
     },
-    "contactUs": "Contactez nous",
-    "followUs": "Suivez nous"
+    "contactUs": "Contact us",
+    "followUs": "Follow us"
 }

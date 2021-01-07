@@ -5,6 +5,17 @@
     margin-right: 10%;
   }
 }
+.custom-container {
+  min-height: 100%;
+  position: relative;
+}
+
+footer{
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+}
 
 @import url(//db.onlinewebfonts.com/c/ced1468ed3321594800dafb719f426e4?family=Roma);
 

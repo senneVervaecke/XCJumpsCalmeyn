@@ -3,7 +3,7 @@
         "name": {
             "nl": "Hindernis Vlaggen",
             "en": "Obstacle Flags",
-            "fr": "Drapeaux d'Obstacle"
+            "fr": "Les petits drapeaux "
         },
         "id": "A1",
         "url": "flag.jpeg"
@@ -12,7 +12,7 @@
         "name": {
             "nl": "Verankering Set",
             "en": "Anchoring Set",
-            "fr": "Kit d'Ancrage"
+            "fr": "Jeu d’ancrage"
         },
         "id": "A2",
         "url": "anchor.jpeg"
