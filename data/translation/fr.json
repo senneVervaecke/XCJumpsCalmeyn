@@ -1,7 +1,7 @@
 {
     "home": {
         "title": "Home",
-        "quote": "Safety, Quality & Design - All In One !!",
+        "quote": "Safety, Quality & Design - All In One",
         "line1": "Nous concevons des obstacles mobiles et pratiques. Les modèles sont disponibles en différentes hauteurs et largeurs. Nous pouvons aussi développer et réaliser votre propre conception.",
         "line2": "Il y a toujours quelques modèles en stock !"
     },
@@ -10,7 +10,7 @@
         "line1": "Ci-dessous vous trouverez nos obstacles déja disponibles. Souvent de nouveaux modèles se rajouteront à notre collection. Nous fabriquons aussi votre propre modèle sur demande. Nous sommes toujours à votre disposition pour de plus amples renseignements."
     },
     "acc":{
-        "title": "Accessories",
+        "title": "Accessoires",
         "line1": "Les accessoires suivants sont aussi disponibles :"
     },
     "contact":{
