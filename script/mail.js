@@ -20,16 +20,16 @@ var sendMail = function(from, subject, name, phone, text) {
         host: 'am6.fcomet.com',
         secure: true,
         auth: {
-        user: 'info@xcjumpscalmeyn.be',
-        pass: 'l&r4?9;W+]~?'
+        user: 'info@xcjumpscalmeyn.com',
+        pass: 'uTvSUoAaOS0d'
         }
     });
     
     var mailOptions = {
-        from: from,
+        from: 'info@xcjumpscalmeyn.com',
         to: 'pcalmeyn@telenet.be',
         subject: subject,
-        text: text + '\n\n' + name + '\n' + phone
+        text: text + '\n\n' + name + '\n' + from + '\n' + phone
     };
 
     // verify connection configuration
