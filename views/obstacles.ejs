@@ -27,7 +27,7 @@
                   <% for(var j = 0; j < obstacles[i].url.length; j++){ %>
                     <div class="swiper-slide">
                       <!-- Required swiper-lazy class and image source specified in data-src attribute -->
-                      <img data-src='img/obstacles/<%= obstacles[i].url[j] %>' class="swiper-lazy">
+                      <img data-src='img/obstacles/<%= obstacles[i].url[j] %>' style="width: 100%; height: 100%; object-fit: cover;" class="swiper-lazy">
                       <!-- Preloader image -->
                       <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                     </div>
