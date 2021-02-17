@@ -16,5 +16,14 @@
         },
         "id": "A2",
         "url": "anchor.jpeg"
+    },
+    {
+        "name": {
+            "nl": "Wedstrijd Kast",
+            "en": "Tack Box",
+            "fr": "Armoire de Concours"
+        },
+        "id": "A3",
+        "url": "a1a.jpeg"
     }
 ]
