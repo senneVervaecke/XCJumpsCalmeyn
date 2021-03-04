@@ -19,11 +19,20 @@
     },
     {
         "name": {
-            "nl": "Wedstrijd Kast",
-            "en": "Tack Box",
-            "fr": "Armoire de Concours"
+            "nl": "Grooming Box",
+            "en": "Grooming Box",
+            "fr": "Grooming Box"
         },
         "id": "A3",
         "url": "a1a.jpeg"
+    },
+    {
+        "name": {
+            "nl": "Grooming Box",
+            "en": "Grooming Box",
+            "fr": "Grooming Box"
+        },
+        "id": "A3",
+        "url": "a1b.jpeg"
     }
 ]
