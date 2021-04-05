@@ -6,7 +6,7 @@
             "fr": "Les petits drapeaux "
         },
         "id": "A1",
-        "url": "flag.jpeg"
+        "url": ["flag.jpeg"]
     },
     {
         "name": {
@@ -15,7 +15,7 @@
             "fr": "Jeu d’ancrage"
         },
         "id": "A2",
-        "url": "anchor.jpeg"
+        "url": ["anchor.jpeg"]
     },
     {
         "name": {
@@ -24,15 +24,6 @@
             "fr": "Grooming Box"
         },
         "id": "A3",
-        "url": "a1a.jpeg"
-    },
-    {
-        "name": {
-            "nl": "Grooming Box",
-            "en": "Grooming Box",
-            "fr": "Grooming Box"
-        },
-        "id": "A3",
-        "url": "a1b.jpeg"
+        "url": ["a1a.jpeg", "a1b.jpeg"]
     }
 ]

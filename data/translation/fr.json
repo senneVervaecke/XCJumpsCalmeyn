@@ -2,6 +2,7 @@
     "home": {
         "title": "Home",
         "quote": "Safety, Quality & Design - All In One",
+        "deal": "découvre notre dernière deal de printemps",
         "line1": "Nous concevons des obstacles mobiles et pratiques. Les modèles sont disponibles en différentes hauteurs et largeurs. Nous pouvons aussi développer et réaliser votre propre conception.",
         "line2": "Il y a toujours quelques modèles en stock !"
     },
@@ -32,6 +33,11 @@
         "invalidSubject": "The subject provided is invalid.",
         "invalidMessage": "The message provided is to short.",
         "error": "Something went wrong. Please contact us using the information at the bottom of the page."
+    },
+    "deal": {
+        "title": "Deals",
+        "extendedTitle": "Printemps Deals !!!",
+        "line1": "Découvre les dernière deals de printemps à une prix compétitif"
     },
     "contactUs": "Contactez nous",
     "followUs": "Suivez nous"

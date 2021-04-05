@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>XC Jumps Calmeyn - <%= trans.deal.title %>
+    </title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/gallery.css">
+</head>
+
+<body style='background-image: url("../img/bg-repeat.jpg");'>
+    <div class="bg-white custom-container">
+        <%- include('../template/navigation.ejs', {active: active}) -%>
+
+            <div class="container-fluid" style="padding-bottom: 180px;">
+                <h2 class="text-center mt-2 title">
+                    <%= trans.deal.extendedTitle %>
+                </h2>
+
+                <h5 class="ml-3 mr-3 mb-3 font-italic">
+                    <%= trans.deal.line1 %>
+                </h5>
+
+                <% for(var i=0; i < deals.length; i++){ %>
+                    <div class="card mb-3 bg-light">
+                        <div class="card-header">
+                            <div class="row">
+                                <h3 class="col-10">
+                                    <%= lang=='fr' ? deals[i].name.fr : lang=='en' ? deals[i].name.en : deals[i].name.nl %>
+                                </h3>
+                                <h4 class="col-2"><%= deals[i].price %></h4>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <% for(var j=0; j < deals[i].obstacles.length; j++) { %>
+                                    <div class="col-md-12 col-lg-4">
+                                        <div class="acc-gallery-item"
+                                            style="background-image: url('img/deals/<%= deals[i].obstacles[j] %>');">
+                                        </div>
+                                    </div>
+                                <% } %>
+                            </div>
+                        </div>
+                    </div>
+                <% } %>
+            </div>
+
+            <%- include('../template/footer.ejs') -%>
+</body>
+
+<script src="js/swiper-bundle.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/gallery.js"></script>
+
+</html>

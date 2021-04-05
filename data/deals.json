@@ -1,0 +1,20 @@
+[
+    {
+        "name": {
+            "nl": "Drie cross hindernissen van 50-60cm",
+            "en": "Three cross-country jumps of 50-60cm",
+            "fr": "Trois obstacles de cross de 50-60cm"
+        },
+        "price": "€700",
+        "obstacles": ["deal1.1.jpeg", "deal1.2.jpeg", "deal1.3.jpeg"]
+    },
+    {
+        "name": {
+            "nl": "Drie cross hindernissen van 90-100cm",
+            "en": "Three cross-country jumps of 90-100cm",
+            "fr": "Trois obstacles de cross de 90-100cm"
+        },
+        "price": "€980",
+        "obstacles": ["deal2.1.jpeg", "deal2.2.jpeg", "deal2.3.jpeg"]
+    }
+]

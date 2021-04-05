@@ -2,6 +2,7 @@
     "home": {
         "title": "Home",
         "quote": "Safety, Quality & Design - All In One",
+        "deal": "Discover our latest spring deals !!!",
         "line1": "We craft practical, movable fences for all your riding needs. A variety of products are available in different sizes. You can even submit your own design for us to build!",
         "line2": "Products still in stock !"
     },
@@ -32,6 +33,11 @@
         "invalidSubject": "The subject provided is invalid.",
         "invalidMessage": "The message provided is to short.",
         "error": "Something went wrong. Please contact us using the information at the bottom of the page."
+    },
+    "deal": {
+        "title": "Deals",
+        "extendedTitle": "Spring Deals !!!",
+        "line1": "Discover the latest spring deals for a sharp price"
     },
     "contactUs": "Contact us",
     "followUs": "Follow us"

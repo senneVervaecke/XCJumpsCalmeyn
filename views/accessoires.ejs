@@ -2,40 +2,72 @@
 <html>
 
 <head>
-  <title>XC Jumps Calmeyn - <%= trans.acc.title %> </title>
+  <title>XC Jumps Calmeyn - <%= trans.acc.title %>
+  </title>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/gallery.css">
+  <link rel="stylesheet" href="css/swiper-bundle.css">
+
 </head>
 
 <body style='background-image: url("../img/bg-repeat.jpg");'>
   <div class="bg-white custom-container">
     <%- include('../template/navigation.ejs', {active: active}) -%>
 
-    <div class="container-fluid" style="padding-bottom: 180px;">
-      <h2 class="text-center mt-2 title"><%= trans.acc.title %> </h2>
+      <div class="container-fluid" style="padding-bottom: 180px;">
+        <h2 class="text-center mt-2 title">
+          <%= trans.acc.title %>
+        </h2>
 
-      <p class="ml-3 mr-3"> <%= trans.acc.line1 %> </p>
+        <p class="ml-3 mr-3">
+          <%= trans.acc.line1 %>
+        </p>
 
-      <div class="row">
-        <% for(var i = 0; i < accessoires.length; i++){ %>
-        <div class="col-lg-4 col-md-6 col-sm-12">
-          <h5 class="ml-2"><%=
-                lang == 'fr' ? accessoires[i].name.fr : lang == 'en' ? accessoires[i].name.en : accessoires[i].name.nl
-                %> </h5>
-          <div class="acc-gallery-item" style="background-image: url('img/accessoires/<%= accessoires[i].url %>');">
-            <span class="acc-bottom-right text-white text-center number"><%= accessoires[i].id %> </span>
-          </div>
+        <div class="row">
+          <% for(var i=0; i < accessoires.length; i++){ %>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <h5 class="ml-2">
+                <%= lang=='fr' ? accessoires[i].name.fr : lang=='en' ? accessoires[i].name.en : accessoires[i].name.nl
+                  %>
+              </h5>
+              <div>
+                <div class="swiper">
+                  <div class="swiper-container gallery-item">
+                    <div class="swiper-wrapper">
+                      <% for(var j=0; j < accessoires[i].url.length; j++){ %>
+                        <div class="swiper-slide">
+                          <!-- Required swiper-lazy class and image source specified in data-src attribute -->
+                          <img data-src='img/accessoires/<%= accessoires[i].url[j] %>'
+                            style="width: 100%; height: 100%; object-fit: cover;" class="swiper-lazy">
+                          <!-- Preloader image -->
+                          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                        </div>
+
+                        <!-- Add Obstacle Number -->
+                        <span class="bottom-right text-white text-center number">
+                          <%= accessoires[i].id %>
+                        </span>
+                        <% } %>
+                    </div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next swiper-button-white"></div>
+                    <div class="swiper-button-prev swiper-button-white"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <% } %>
         </div>
-        <% } %>
       </div>
-    </div>
-    
-    <%- include('../template/footer.ejs') -%>
+
+      <%- include('../template/footer.ejs') -%>
 </body>
 
 <script src="js/swiper-bundle.js"></script>
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.bundle.js"></script>
 <script src="js/gallery.js"></script>
+<script src="js/obstacle.js"></script>
+
 </html>

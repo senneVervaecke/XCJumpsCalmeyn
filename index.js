@@ -40,6 +40,12 @@ app.get('/', function(req, res){
     res.render('home', {active: "home"});
  });
 
+ app.get('/deals', function(req, res){
+   json.readFile('data/deals.json', (err, obj) => {
+      res.render('deals', {active: "deals", deals: obj});
+    })
+});
+
  app.get('/obstacles', function(req, res){
     json.readFile('data/obstacles.json', (err, obj) => {
       res.render('obstacles', {active: "obstacles", obstacles: obj});
