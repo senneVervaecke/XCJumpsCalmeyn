@@ -6,8 +6,11 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var i18n = require('i18n-express');
 var mail = require('./script/mail.js');
+var minify = require('express-minify');
 
 var app = express();
+
+app.use(minify());
 
 app.use(express.static(__dirname + '/public'));
 app.use(express.static(__dirname + "/node_modules/bootstrap/dist"));
