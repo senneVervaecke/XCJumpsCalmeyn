@@ -26,7 +26,7 @@ var sendMail = function(from, subject, name, phone, text) {
     });
     
     var mailOptions = {
-        from: 'info@xcjumpscalmeyn.com',
+        from: from,
         to: 'pcalmeyn@telenet.be',
         subject: subject,
         text: text + '\n\n' + name + '\n' + from + '\n' + phone
