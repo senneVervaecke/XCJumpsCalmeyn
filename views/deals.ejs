@@ -29,7 +29,6 @@
                                 <h3 class="col-10">
                                     <%= lang=='fr' ? deals[i].name.fr : lang=='en' ? deals[i].name.en : deals[i].name.nl %>
                                 </h3>
-                                <h4 class="col-2"><%= deals[i].price %></h4>
                             </div>
                         </div>
                         <div class="card-body">
@@ -48,6 +47,7 @@
             </div>
 
             <%- include('../template/footer.ejs') -%>
+    </div>
 </body>
 
 <script src="js/swiper-bundle.js"></script>
